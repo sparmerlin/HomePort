@@ -3,7 +3,7 @@ main: io.github.sparmerlin.homeport.HomePort
 version: 1
 commands:
    getfeather:
-      description: This is a demo command.
+      description: Give's the player a feather.
       usage: /<command> [player]
       permission: HomePort.basic
       permission-message: You don't have <permission>
