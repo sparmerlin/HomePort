@@ -1,0 +1,9 @@
+name: Homeport
+main: io.github.sparmerlin.homeport.HomePort
+version: 1
+commands:
+   getfeather:
+      description: This is a demo command.
+      usage: /<command> [player]
+      permission: HomePort.basic
+      permission-message: You don't have <permission>
