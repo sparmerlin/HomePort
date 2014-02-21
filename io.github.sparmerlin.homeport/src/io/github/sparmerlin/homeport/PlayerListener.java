@@ -23,6 +23,7 @@ public class PlayerListener implements Listener {
     public void onPlayerUse(PlayerInteractEvent event){
         Player p = event.getPlayer();
      ChatColor blue = ChatColor.BLUE;
+     if (p.hasPermission("homeport.use")){
         if(p.getItemInHand().getType() == Material.FEATHER)
         	if (p.isSneaking()){
         		if (p.getBedSpawnLocation() != null) {
@@ -41,5 +42,6 @@ public class PlayerListener implements Listener {
             		p.sendMessage(blue + "You have returned to spawn!");
         		}
         	}
+     }
     }
 }
