@@ -17,4 +17,4 @@ permissions:
    homeport.use:
      description: Allows the player to use the feather.
    homeport.help:
-     description: Allows the player to use the feather.
+     description: Allows the player to use the help command.
