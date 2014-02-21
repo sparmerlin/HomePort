@@ -23,7 +23,7 @@ public class Help implements CommandExecutor {
 			if (sender instanceof Player) {
 			Player player = (Player) sender;
 			ChatColor blue = ChatColor.BLUE;
-			player.sendMessage("Right click while crouching and holding a feather to return to bed/spawn.");
+			player.sendMessage(blue + "Right click while crouching and holding a feather to return to bed/spawn.");
 			}
 		}
 		return false;
