@@ -7,8 +7,14 @@ commands:
       description: Give's the player a feather.
       permission: homeport.getfeather
       permission-message: You don't have <permission>
+   homeporthelp:
+      description: Displays help information.
+      permission: homeport.help
+      permission-message: You don't have <permission>
 permissions:
    homeport.getfeather:
      description: Allows the player to spawn a feather.
    homeport.use:
+     description: Allows the player to use the feather.
+   homeport.help:
      description: Allows the player to use the feather.
