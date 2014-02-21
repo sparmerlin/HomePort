@@ -19,7 +19,7 @@ public class Commands implements CommandExecutor {
 	}
 	
 	
-	//Gives player a feather.
+	//Gives player a feather. If player already has a feather, do not give the player a feather.
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (cmd.getName().equalsIgnoreCase("getfeather")) {
 			if (sender instanceof Player) {
