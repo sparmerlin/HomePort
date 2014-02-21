@@ -10,11 +10,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-public class Commands implements CommandExecutor {
+public class GetFeather implements CommandExecutor {
 
 	private HomePort plugin;
 	 
-	public Commands(HomePort plugin) {
+	public GetFeather(HomePort plugin) {
 		this.plugin = plugin;
 	}
 	
