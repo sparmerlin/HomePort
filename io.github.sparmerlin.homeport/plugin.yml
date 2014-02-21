@@ -1,9 +1,15 @@
 name: Homeport
 main: io.github.sparmerlin.homeport.HomePort
 version: 1
+author: sparmerlin
 commands:
    getfeather:
       description: Give's the player a feather.
       usage: /<command> [player]
-      permission: HomePort.basic
+      permission: homeport.getfeather
       permission-message: You don't have <permission>
+permissions:
+   homeport.getfeather:
+     description: Allows the player to spawn a feather.
+   homeport.use:
+     description: Allows the player to use the feather.
