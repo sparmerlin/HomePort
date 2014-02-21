@@ -1,4 +1,4 @@
-package io.github.sparmerlin.homeport;
+package io.github.sparmerlin.homeport.listeners;
 
 
 import org.bukkit.ChatColor;

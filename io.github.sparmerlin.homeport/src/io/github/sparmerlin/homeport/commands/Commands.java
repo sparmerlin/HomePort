@@ -1,4 +1,6 @@
-package io.github.sparmerlin.homeport;
+package io.github.sparmerlin.homeport.commands;
+
+import io.github.sparmerlin.homeport.HomePort;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
