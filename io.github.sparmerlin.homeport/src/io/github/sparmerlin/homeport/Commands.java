@@ -20,17 +20,16 @@ public class Commands implements CommandExecutor {
 	
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		if (cmd.getName().equalsIgnoreCase("getfeather")) {
+			if (sender instanceof Player) {
 			Player player = (Player) sender;
 			ChatColor blue = ChatColor.BLUE;
-			if (!(sender instanceof Player)) {
-				sender.sendMessage("This command can only be run by a player.");
-				} else if (player.getInventory().contains(Material.FEATHER)){
-					player.sendMessage(blue + "You already have a feather!");
+			if (player.getInventory().contains(Material.FEATHER)){
+				player.sendMessage(blue + "You already have a feather!");
 					} else {
 						player.sendMessage(blue + "Shift and right click with the feather to return to spawn.");
 						player.getInventory().addItem(new ItemStack(Material.FEATHER, 1));
+					}
 			}
-			return true;
 		}
 		return false;
 	}
