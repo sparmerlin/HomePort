@@ -6,7 +6,7 @@ import io.github.sparmerlin.homeport.listeners.PlayerListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class HomePort extends JavaPlugin{
-//Welcome to our source code.
+//Welcome to our beta source code.
     @Override
     public void onEnable(){
     	getCommand("getfeather").setExecutor(new Commands(this));
