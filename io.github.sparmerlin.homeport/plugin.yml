@@ -15,6 +15,10 @@ commands:
       description: Displays help information.
       permission: homeport.hpsetspawn
       permission-message: You don't have <permission>
+   hpspawn:
+      description: Displays help information.
+      permission: homeport.hpspawn
+      permission-message: You don't have <permission>
 permissions:
    homeport.getfeather:
      description: Allows the player to spawn a feather.
@@ -24,3 +28,5 @@ permissions:
      description: Allows the player to use the help command.
    homeport.hpsetspawn:
      description: Allows the player to set the spawn location.
+   homeport.hpspawn:
+     description: Allows the player to teleport to the spawn.
