@@ -1,6 +1,6 @@
 name: Homeport
 main: io.github.sparmerlin.homeport.HomePort
-version: 1
+version: 1.5
 author: sparmerlin
 commands:
    getfeather:
@@ -11,6 +11,10 @@ commands:
       description: Displays help information.
       permission: homeport.help
       permission-message: You don't have <permission>
+   hpsetspawn:
+      description: Displays help information.
+      permission: homeport.hpsetspawn
+      permission-message: You don't have <permission>
 permissions:
    homeport.getfeather:
      description: Allows the player to spawn a feather.
@@ -18,3 +22,5 @@ permissions:
      description: Allows the player to use the feather.
    homeport.help:
      description: Allows the player to use the help command.
+   homeport.hpsetspawn:
+     description: Allows the player to set the spawn location.
