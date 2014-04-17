@@ -36,4 +36,3 @@ public class GetFeather implements CommandExecutor {
 		return false;
 	}
 }
-
